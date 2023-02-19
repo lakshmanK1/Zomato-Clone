@@ -12,11 +12,11 @@ export const SearchDiv = styled.div`
 padding:10px; width:520px; height:30px; margin-left:10px; display:flex;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius:20px; justify-content: space-around;`;
 
-export const SearchBar = styled.input`border:none;`;
+export const SearchBar = styled.input`border:none; color:rgb(105, 105, 105);`;
 
 export const NavDiv = styled.div`float:right; margin-top:10px;`;
 
-export const NavLink = styled.span`margin-left:15px; cursor:pointer;`;
+export const NavLink = styled.span`margin-left:15px; cursor:pointer; color:rgb(105, 105, 105);`;
 
 export const LocationDiv = styled.div``;
 
