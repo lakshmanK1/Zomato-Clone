@@ -7,18 +7,21 @@ import NightLifeTab from './Components/Tabs/NightLifeTab';
 import TabOptions from './Components/Tabs/TabOptions';
 
 function App() {
-  const [tabActive, setTabActive] = useState('NightLife');
+  const [tabActive, setTabActive] = useState('DiningOut');
 
   const openActive = (tab) => {
     switch(tab){
       case 'Delivery':
         return <DeliveryTab/>;
       
-      case 'DinningOut':
+      case 'DiningOut':
         return <DinningOutTab/>;
       
       case 'NightLife':
-        return <NightLifeTab/>
+        return <NightLifeTab/>;
+
+      default :
+      return <DeliveryTab/>;
     }
   }
 
